@@ -1,0 +1,33 @@
+@import url("../../App.css"); 
+
+.hero {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.hero__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero h1 {
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.hero p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px; 
+    max-width: 580px;
+}
+
+.hero img {
+    width: 400px;
+}
