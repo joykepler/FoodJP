@@ -1,0 +1,44 @@
+@import url("../../App.css"); 
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.about__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about img {
+    max-width: 592px;
+    width: 100%;
+}
+
+.about span {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FF0000;
+    font-family: "Koh Santepheap", sans;
+}
+
+.about h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #232323;
+    max-width: 340px;
+    font-family: "Koh Santepheap", sans;
+}
+
+.about p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #232323;
+    font-family: "Poppins", sans-serif;
+    max-width: 520px;
+    margin-top: 20px;
+}

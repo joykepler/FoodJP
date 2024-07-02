@@ -4,9 +4,8 @@
     width: 70%;
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin: 50px auto;
     align-items: center;
-    margin-top: 50px;
 }
 
 .hero__texto {

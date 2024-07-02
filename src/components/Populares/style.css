@@ -1,0 +1,14 @@
+@import url("../../App.css"); 
+
+.populares h1 {
+    text-align: center;
+    font-family: "Koh Santepheap", serif;
+}
+
+.populares__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 150px auto;    
+}
