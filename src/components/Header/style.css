@@ -23,3 +23,13 @@ nav a {
     font-size: 20px;
     font-weight: 20px;
 }
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+
+    img {
+        width: 90px;
+    }
+}

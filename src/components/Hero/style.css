@@ -15,7 +15,7 @@
 }
 
 .hero h1 {
-    font-family: "Koh Santepheap", serif;
+    font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: 48px;
 }
@@ -29,4 +29,24 @@
 
 .hero img {
     width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        width: 90%;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero h1 {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .hero p {
+        text-align: center;
+        font-size: 20px;
+    }
 }

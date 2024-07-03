@@ -1,14 +1,25 @@
 @import url("../../App.css"); 
 
-.populares h1 {
+.comentarios h1 {
     text-align: center;
-    font-family: "Koh Santepheap", serif;
+    font-family: "Merriweather", serif;
 }
 
-.populares__cards {
+.comentarios__cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    margin: 150px auto;    
+    margin: 50px auto;    
+}
+
+@media screen and (max-width: 767px) {
+    .comentarios {
+        width: 90%;
+    }
+
+    .comentarios__cards {
+        flex-direction: column;
+        gap: 40px;
+    }
 }

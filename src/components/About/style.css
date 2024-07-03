@@ -23,15 +23,15 @@
     font-size: 24px;
     font-weight: 400;
     color: #FF0000;
-    font-family: "Koh Santepheap", sans;
+    font-family: "Merriweather", serif;
 }
 
 .about h1 {
     font-size: 48px;
     font-weight: 400;
     color: #232323;
-    max-width: 340px;
-    font-family: "Koh Santepheap", sans;
+    max-width: 350px;
+    font-family: "Merriweather", serif;
 }
 
 .about p {
@@ -41,4 +41,28 @@
     font-family: "Poppins", sans-serif;
     max-width: 520px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        width: 90%;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about span {
+        text-align: center;
+    }
+ 
+    .about h1 {
+        text-align: center;
+        font-size: 44px;
+    }
+
+    .about p {
+        text-align: center;
+        font-size: 20px;
+    }
 }

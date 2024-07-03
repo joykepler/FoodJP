@@ -21,3 +21,21 @@
 .redes__item {
     width: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .rodape {
+        width: 90%;
+    }
+
+    .rodape__logo {
+        width: 100px;
+    }
+
+    .rodape__redes {
+        gap: 5px;
+    }
+
+    .redes__item {
+        width: 30px;
+    }
+}
