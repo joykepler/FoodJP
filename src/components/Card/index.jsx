@@ -3,7 +3,7 @@ import './style.css'
 const Card = ({imagem, texto}) => {
     return (
         <div className='card'>
-            <img src={imagem} alt="" />
+            <img src={imagem} alt="Prato" />
             <h1>{texto}</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <span>R$ 30</span>

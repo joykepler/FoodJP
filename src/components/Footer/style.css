@@ -1,0 +1,23 @@
+@import url("../../App.css"); 
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto;
+    border-top: 1px solid #F8F5F2;
+    padding: 50px 0px 0px 0px;
+}
+
+.rodape__logo {
+    width: 154px;
+}
+
+.rodape__redes {
+    display: flex;
+    gap: 10px;
+}
+
+.redes__item {
+    width: 40px;
+}

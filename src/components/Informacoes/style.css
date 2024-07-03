@@ -1,0 +1,29 @@
+@import url("../../App.css"); 
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.informacoes__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoes__container h1 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Koh Santepheap", serif;
+    color: #232323;
+}
+
+.informacoes__container h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #232323;
+}

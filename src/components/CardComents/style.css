@@ -1,0 +1,40 @@
+@import url("../../App.css"); 
+
+.card-coments {
+    width: 592px;
+    height: 390px;
+    height: 100%;
+    border-radius: 16px;
+    background-color: #F8F5F2;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 35px;
+    gap: 20px;
+}
+
+.coments-perfil img {
+    width: 120px;
+    height: 120px;
+}
+
+.card-coments h1 {
+    font-family: "Koh Santepheap", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #232323;
+}
+
+.card-coments p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #232323;    
+    max-width: 440px;
+}
+
+.coments-estrelas {
+    width: 168px;
+    height: 24px;
+}
