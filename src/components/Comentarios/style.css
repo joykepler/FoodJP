@@ -1,5 +1,12 @@
 @import url("../../App.css"); 
 
+.comentarios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .comentarios h1 {
     text-align: center;
     font-family: "Merriweather", serif;
@@ -14,12 +21,17 @@
 }
 
 @media screen and (max-width: 767px) {
+
     .comentarios {
         width: 90%;
+        margin: auto;
     }
 
     .comentarios__cards {
         flex-direction: column;
         gap: 40px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 }

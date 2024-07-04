@@ -25,11 +25,15 @@ nav a {
 }
 
 @media screen and (max-width: 767px) {
+    header {
+        width: 80%;
+    }
+
     nav {
         display: none;
     }
 
     img {
-        width: 90px;
+        width: 120px;
     }
 }
