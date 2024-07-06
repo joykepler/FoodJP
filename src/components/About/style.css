@@ -71,3 +71,25 @@
         width: 100%;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+        
+ .about {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    gap: 70px;
+ }
+
+ .about span {
+    text-align: center;
+ }
+
+ .about h1 {
+    text-align: center;
+    margin: auto;
+ }
+
+ .about p {
+    text-align: center;
+ }
+}
