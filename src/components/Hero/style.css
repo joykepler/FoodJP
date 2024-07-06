@@ -56,3 +56,24 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .hero {
+        gap: 30px;
+        width: 85%;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .hero img {
+        width: 300px;     
+    }
+}
