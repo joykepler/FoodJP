@@ -17,7 +17,6 @@
     margin: 150px auto;    
 }
 
-
 @media screen and (max-width: 767px) {
     .populares__cards {
         flex-direction: column;
@@ -25,3 +24,16 @@
         border: saddlebrown;
     }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .populares {
+        width: 100%;
+    }
+    
+    .populares__cards { 
+        gap: 30px;
+        width: 90%;
+    }
+}
+
