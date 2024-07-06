@@ -1,5 +1,9 @@
 @import url("../../App.css"); 
 
+.populares {
+    margin-top: 150px;
+}
+
 .populares h1 {
     text-align: center;
     font-family: "Merriweather", serif;
